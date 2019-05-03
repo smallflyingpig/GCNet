@@ -1,3 +1,12 @@
+##################################################################
+# Evaluate the result with COCO style of detection               #
+#                                                                #
+# @copyright    Copyright 2012-1019 Bytedance.Inc                #
+# @license      Apache                                           #
+# @author       Jiguo Li (jiguo.li@vipl.ict.ac.cn)               #
+# @version      1.0                                              #
+##################################################################
+
 from pycocotools.coco import COCO
 from pycocotools.cocoeval import COCOeval
 import matplotlib.pyplot as plt 
